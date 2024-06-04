@@ -1,0 +1,56 @@
+Basic Search Operators.
+AND, OR, NOT (represented by a minus sign).
+
+These are pretty simple, you can use these to include or exclude certain words from search results. 
+Example:
+dell AND apple (results that include both words).
+dell OR apple (results that include either of words).
+dell -apple (results that include dell but not apple).
+
+Note: In regular searches, google defaults to AND anyway, so it doesn’t matter make much difference. But it can be quite useful when combined with other operators..
+WildCards and Exact Match.
+
+Wildcards and exact match search serve very different purposes. Exact match search is when you tell the search engine to show results that contain the exact phrase..
+
+This is done by including the phrase in double-quotes..
+
+Wildcards simply mean, match any word or phrase. Quite useful if you forgot part of the word or phrase you wanted to search. There are represented by an asterisk..
+
+Aside: I also find these pretty useful for searching memes 😛 As you’ll see in the examples..
+
+Example:.
+
+“we’re hitting” “levels never thought possible”.
+
+we’re hitting * levels never thought possible.
+
+Knowing these little tricks and having the ability to combine them is quite powerful. But there is more! Keep reading to know some of the advanced google search tips I use quite often at work..
+Advanced Search Operators.
+
+These are pretty simple yet powerful search operators. Using them will make you feel like a search engine God. Let’s see some examples..
+site:.
+
+Limit the search results to a particular site. Example:.
+
+site:stackoverflow.com regex javascript.
+inurl:.
+
+Include results whose URL contain the word or phrase. I find this extremely helpful when I want to look for something in an online documentation site that’s hard to navigate. Example:.
+
+inurl:developer.linkedin.com “pagination”.
+
+You can also sneak wildcards in there:.
+
+site:*.facebook.com “access tokens” “api”.
+
+inurl:admin-sdk site:*.google.com “reseller api”.
+filetype:.
+
+This operator lets you search on filetypes. Example:.
+
+filetype:pdf “machine learning”.
+
+filetype:docx “metaprogramming”.
+Closing Thoughts.
+
+There are a lot more search operators, but these are the ones I most frequently use. If you know any other search operators that you frequently use, please comment below because I’d love to know!.
